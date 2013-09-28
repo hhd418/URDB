@@ -1,1 +1,5 @@
 <h1>Best Movies Ever</h1>
+
+<% @movies.each do |movie| %>
+	<%= link_to movie.title, movie_url(movie.movie) %>
+<% end %>
