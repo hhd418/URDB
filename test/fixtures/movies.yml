@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  movie: MyString
+  title: MyString
+  git: MyString
+  trailier: MyString
+
+two:
+  movie: MyString
+  title: MyString
+  git: MyString
+  trailier: MyString
