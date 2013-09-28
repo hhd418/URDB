@@ -4,6 +4,13 @@ This is the URDB app. We are creatinng a similar site to IMDB and will be listin
 
 The app uses ruby on rails and uses sqlite3 as the database for Active Record. We also added one of our favorite gems Hirb to improve the viewing of the database in the console.
 
+There are ten movies in the seed file. So to start:
+1. clone the file: https://github.com/hhd418/URDB.git
+2. run: bundle install
+3. generate the model: rails g model Movie movie:string title:string gif:string trailer_id:string description:string
+4. run: bundle exec rake db:migrate
+5. run: bundle exec rake db:seed
+
 Check it out and let me know what you think! 
 
 
